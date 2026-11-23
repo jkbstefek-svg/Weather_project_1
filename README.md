@@ -1,1 +1,2 @@
 # Weather_project_1
+This is one of my first projects, I am trying to program script that pulls weather and then shows me weather for the day in my current city. I would like to automate it so it runs automatically every day at a certain time but we will see how far will I get
