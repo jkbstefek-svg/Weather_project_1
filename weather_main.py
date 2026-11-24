@@ -8,7 +8,7 @@ WEATHER_API_KEY = dotenv_values("WEATHER_API_KEY.env")
 res = WEATHER_API_KEY.popitem(last=True)
 key = res[1]
 
-url = f"https://api.openweathermap.org/data/2.5/weather?q=Brno,cz&,units=metric&APPID={key}"
+url = f"https://api.openweathermap.org/data/2.5/weather?q=Brno,cz&units=metric&APPID={key}"
 
 def download(url):
     try:
